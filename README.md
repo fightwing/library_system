@@ -1,0 +1,2 @@
+# library_system
+In normal operation, libraries are faced with a large number of books, reader information and the information of borrowing and returning books which are interrelated. The existing manual recording method is inefficient and has too many errors, which greatly affects the normal management of the library. Therefore, it is necessary to manage the book resources, reader resources, borrowing information and returning information, to know the changes of information in every link in time, and to improve the efficiency of management.
