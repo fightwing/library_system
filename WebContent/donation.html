@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link  rel="stylesheet" href="static/css/donation.css">
+
+<script type="text/javascript">
+function check() {
+	
+	
+	
+	document.getELementById("form").action="DonationServlet";
+	document.getELementById("form").submit();
+}
+</script>
+
+<title>search_bookname</title>
+</head>
+<body>
+<div id="top" class="top">
+
+   图书管理系统
+   
+</div>
+
+<div class="information">
+
+<form id="form" action="DonationServlet" method="post" >
+
+      <h2>捐赠信息表</h2>
+      <table>
+            <tr>
+                <th>捐赠人</th>
+                <td><input type="text" name="donater_name" id="donater_name"></td>
+            </tr>
+            
+             <tr>
+                <th>电话号码</th>
+                <td><input type="text" name="donater_phone" id="donater_phone"></td>
+            </tr>
+            
+             <tr>
+                <th>书籍</th>
+                <td><input type="text" name="donater_bookname" id="donater_bookname"></td>
+            </tr>
+            
+             <tr>
+                <th>数量</th>
+                <td><input type="text" name="donater_booknumber" id="donater_booknumber"></td>
+            </tr>
+            
+      </table>
+
+
+
+<div class="bottom">
+      <input type="submit" value="提交申请" onclick="check()" >  
+</div>
+
+</form>
+
+</div>
+
+
+</body>
+</html>

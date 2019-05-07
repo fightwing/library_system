@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+div.top{
+	width:100%;
+	height:5%;
+	
+	color:white;
+	font-size:2em;
+	background-color:#400040;
+}
+
+div.information{
+	font-size:1.5em;
+	text-align:center;
+	margin-left:20%;
+	width:60%;
+	height:40%;
+	
+	
+}
+
+div.bottom{
+	width:10%;
+	margin-left:45%;
+	margin-top:10%;
+}
+
+input{
+	width:90%;
+}
+
+table{
+	margin-left:20%;
+	width:60%;
+	background-color:white;
+	cellspaceing:1px;
+}
+
+tr{
+	background-color:#c0c0c0;
+}
